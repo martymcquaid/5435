@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Gallery: React.FC = () => {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-6">
+      <h1 className="text-5xl font-bold text-gray-800">Gallery</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div className="bg-white p-6 rounded-lg shadow-md">Image 1</div>
+        <div className="bg-white p-6 rounded-lg shadow-md">Image 2</div>
+        <div className="bg-white p-6 rounded-lg shadow-md">Image 3</div>
+      </div>
+    </div>
+  );
+};
+
+export default Gallery;
